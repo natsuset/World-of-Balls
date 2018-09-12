@@ -13,7 +13,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtx/transform.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-
+#include<bits/stdc++.h>
 struct color_t {
     int r;
     int g;
@@ -74,12 +74,18 @@ struct bounding_box_t {
 bool detect_collision(bounding_box_t a, bounding_box_t b);
 
 extern float screen_zoom, screen_center_x, screen_center_y;
-void reset_screen();
+void zoomDec();
+void zoomInc();
 
+void reset_screen();
+//extern Ball ball1;
 // ---- Colors ----
 extern const color_t COLOR_RED;
 extern const color_t COLOR_GREEN;
 extern const color_t COLOR_BLACK;
 extern const color_t COLOR_BACKGROUND;
+extern const color_t COLOR_BROWN;
+extern const color_t COLOR_YELLOW;
+extern const color_t COLOR_BLUE;
 
 #endif

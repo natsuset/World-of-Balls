@@ -1,13 +1,13 @@
 #include "main.h"
 
-#ifndef BALL_H
-#define BALL_H
+#ifndef BOOST_H
+#define BOOST_H
 
 
-class Ball {
+class Boost {
 public:
-    Ball() {}
-    Ball(float x, float y,float r, color_t color);
+    Boost() {}
+    Boost(float x, float y,float r, color_t color);
     glm::vec3 position;
     float rotation;
     float radius;
