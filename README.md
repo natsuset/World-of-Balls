@@ -2,10 +2,6 @@
 Graphics Assignment-1 
 =========================
 
-
-Name: Sowrya Deep Thayi.
-Roll No : 20161029
-
 structure of files
 
 20161029_Assignment1
